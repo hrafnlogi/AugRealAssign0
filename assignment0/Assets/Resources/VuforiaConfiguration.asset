@@ -16,8 +16,8 @@ MonoBehaviour:
     ufoLicenseKey: QVhQMjVxLy8vLy8vQUFBQUtNQm1LV1dFTWtlc25kZ0o4WnB5d1hsa2NWVkY4L05Id0MyajdTRmFaVnhiY0I2M2ZmTWpXcG13emIyZ0k5Syt2ZS9VaTVxMEl0emRwaW9JaUoyYnVnK1VkRVUyWUs1V0IyRGhjNTFVV0JLYUpVdmg3Z2dnTno2T0JqYlVhV0NVWFIvTXNaTWF6cmNmMXQ1eHlzSzYxWnhtamZub3lEQXVZR3FKc0JzaUZoVDFiWjhMN296aHhITEppS2MzTUdURFFNbFh4bXltNEl6cUllWUNFNHVaNUljRElqWU1pSS9nQ3p3WmRmVDZ2RUQydFNZRzA5U0o1cjBCYUdtUmkyQlBjbnl3YUtEdlBuTUFRRVBscGYrYmZhVTdFcjlJMVlNbm5QWEJtTDdmUUx6aDRUZ2lUdHJmNE1QajJGaUJXUUJzMktaU04wcHlJVXA0cFRvbTlQZWdITXdKMW12ZWViSExwRXA4OVMySS9XNzI=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
-    maxSimultaneousObjectTargets: 2
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -44,16 +44,18 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - targetsymbol
+    - Solarsystem
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - targetsymbol
     - carbacksolar
     - VuforiaMars_Object_OT
     - VuforiaMars_ModelTarget
     dataSetsToActivate:
-    - targetsymbol
+    - Solarsystem
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - targetsymbol
     - carbacksolar
     - VuforiaMars_Object_OT
     - VuforiaMars_ModelTarget
